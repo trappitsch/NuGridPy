@@ -2540,7 +2540,7 @@ class DataPlot(object):
             patches.append(rect)
 
 
-        p = PatchCollection(patches,norm=0,facecolor='w')
+        p = PatchCollection(patches,norm=None,facecolor='w')
         p.set_zorder(1)
         ax2.add_collection(p)
 
